@@ -3,6 +3,6 @@
 In your `.bashrc`, add
 
 ```bash
-export QiniuAK=XXXXXX
-export QiniuSK=XXXXXX
+export QiNiuAK=XXXXXX
+export QiNiuSK=XXXXXX
 ```
