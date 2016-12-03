@@ -1,5 +1,8 @@
-qiniu: conf.json
+qiniu: conf.json publish
 	qrsync conf.json
+
+publish:
+	mkdir $@
 
 conf.json: conf.json.in
 	cat $< | sed -e "s/QiNiuAK/$$QiNiuAK/" | sed -e "s/QiNiuSK/$$QiNiuSK/" > $@
