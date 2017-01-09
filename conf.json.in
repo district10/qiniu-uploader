@@ -1,5 +1,5 @@
 {
     "src": "publish",
-    "dest":  "qiniu:access_key=QiNiuAK&secret_key=QiNiuSK&bucket=whudoc&key_prefix=2016/",
+    "dest":  "qiniu:access_key=QiNiuAK&secret_key=QiNiuSK&bucket=whudoc&key_prefix=2017/",
     "debug_level": 1
 }
